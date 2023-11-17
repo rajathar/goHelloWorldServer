@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rajathar_goHelloWorldServer_1700242109531-push-trigger-input-set
+  identifier: Build_rajathar_goHelloWorldServer_1700242109531pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rajathar_goHelloWorldServer_1700242109531
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
